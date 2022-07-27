@@ -1,11 +1,9 @@
 import time, sys
 from random import randint, uniform
-from typing import overload
 import pygame
 from pygame import gfxdraw
 from pygame import Vector2 as V, Rect as R, Color as C
 from pygame.locals import *
-import pyfxr
 
 class SpatialHash:
     def __init__(s, size):
